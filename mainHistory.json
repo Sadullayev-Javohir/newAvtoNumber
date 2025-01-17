@@ -1,0 +1,14 @@
+[
+    {
+        "AvtoNumberID": 4,
+        "AvtoNumber": "10R123RR",
+        "AvtoNumberCost": 1116.0,
+        "AvtoNumberPutTime": "2025-01-17 14:31:24",
+        "AvtoNumberStatus": "Sotilgan",
+        "userID": 1,
+        "userName": "Javohir",
+        "userLastName": "Sadullayev",
+        "userAddress": "Jizzax",
+        "AvtoNumberSoldTime": "2025-01-17 14:50:34"
+    }
+]
