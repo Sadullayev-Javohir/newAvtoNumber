@@ -16,7 +16,7 @@ def main():
         def passwordCheck():
             password = input("Parol kiriting: ")
             if password == "12345":
-                sellerRun()
+                SellerRun.sellerRun()
                 return
             else:
                 print()
@@ -30,17 +30,21 @@ def main():
             print()
             print("1. Ro'yxatdan o'tish")
             print("2. Kirish")
+            print("3. Chiqish")
             print()
             choose = input("Tanlang: ")
             if choose == "1":
-                userSignCheck()
+                UserSignCheck.userSignCheck()
             elif choose == "2":
-                userLogIn()
+                UserLogIn.userLogIn()
+            elif choose == "3":
+                return main()
     elif prompt == "3":
         print("Kuningiz yaxshi o'tsin")
         return
     else:
         print("1-3 gacha raqam kiriting: ")
         return main()
+    
 if __name__ == "__main__":
     main()  
